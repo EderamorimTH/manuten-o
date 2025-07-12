@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Serviços de marido de aluguel, instalação de ar-condicionado, manutenção hidráulica, elétrica e limpeza de quintal em Cuiabá. Atendimento rápido com preço justo.">
-    <meta name="keywords" content="marido de aluguel Cuiabá, instalação ar-condicionado Cuiabá, manutenção hidráulica Cuiabá, serviços elétricos Cuiabá, limpeza de quintal Cuiabá, azulejista Cuiabá, reparos residenciais Cuiabá, consertos domésticos Cuiabá">
-    <title>Serviços de Reparos Residenciais em Cuiabá - Solução House</title>
+    <meta name="description" content="Solução House: Marido de aluguel e faz tudo em Cuiabá, MT. Reparos elétricos, hidráulicos, instalação de ar-condicionado, limpeza de quintal e mais. Atendemos Coxipó, CPA, Centro e Várzea Grande.">
+    <meta name="keywords" content="marido de aluguel Cuiabá, faz tudo Cuiabá, instalação ar-condicionado Cuiabá, manutenção hidráulica Cuiabá, serviços elétricos Cuiabá, limpeza de quintal Cuiabá, azulejista Cuiabá, reparos residenciais Cuiabá, marido de aluguel Coxipó, faz tudo CPA, faz tudo Várzea Grande">
+    <title>Faz Tudo Cuiabá: Marido de Aluguel e Reparos Residenciais - Solução House</title>
     <!-- Aviso: O CDN do Tailwind não é recomendado para produção. Considere instalar localmente via PostCSS ou CLI: https://tailwindcss.com/docs/installation -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -13,39 +13,35 @@
     <style>
         body { font-family: 'Roboto', sans-serif; }
         .whatsapp-float { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
-        .step-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
-        .step-card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); }
+        .step-card, .blog-card, .testimonial-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .step-card:hover, .blog-card:hover, .testimonial-card:hover { transform: translateY(-5px); box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); }
     </style>
 </head>
 <body class="bg-gray-100">
     <header class="bg-green-600 text-white sticky top-0 z-50">
         <div class="container mx-auto flex flex-col items-center py-4 px-4">
-            <!-- Logo centralizada e ligeiramente maior -->
-            <img src="imagens/amorim.png" alt="Solução House Logo" class="h-36 w-auto">
-            <!-- Navegação próxima à logo -->
+            <img src="imagens/amorim.png" alt="Solução House - Marido de Aluguel e Faz Tudo Cuiabá" class="h-36 w-auto">
             <nav class="flex space-x-4 mt-2">
-                <a href="#quem-somos" class="hover:text-gray-200">Início</a>
+                <a href="#inicio" class="hover:text-gray-200">Início</a>
                 <a href="#servicos" class="hover:text-gray-200">Serviços</a>
                 <a href="#quem-somos" class="hover:text-gray-200">Quem Somos</a>
+                <a href="#blog" class="hover:text-gray-200">Blog</a>
                 <a href="#contato" class="hover:text-gray-200">Contato</a>
             </nav>
         </div>
     </header>
 
-    <section id="quem-somos" class="bg-green-50 py-16">
+    <section id="inicio" class="bg-green-50 py-12">
         <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl font-bold text-gray-800 mb-8">Sobre a Solução House</h2>
-            <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-lg">
-                <p class="text-lg text-gray-600 leading-relaxed">
-                    A <span class="font-semibold text-green-600">Solução House</span> é uma empresa local em Cuiabá - MT, especializada em serviços residenciais de qualidade. Com foco em confiança, preço justo e atendimento profissional, estamos prontos para resolver suas necessidades de reparos e manutenções com eficiência. Nossa equipe é dedicada a trazer soluções práticas e rápidas para sua casa, sempre com um sorriso no rosto!
-                </p>
-            </div>
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">Marido de Aluguel e Faz Tudo em Cuiabá</h1>
+            <p class="text-lg text-gray-600 mb-6">Solução House: Reparos rápidos e confiáveis em Cuiabá e Várzea Grande. Serviços elétricos, hidráulicos, instalação de ar-condicionado e mais, em bairros como Coxipó, CPA e Centro!</p>
+            <a href="https://wa.me/5565993591390" class="inline-block bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700">Agende Agora via WhatsApp</a>
         </div>
     </section>
 
     <section id="servicos" class="py-16">
         <div class="container mx-auto">
-            <h2 class="text-3xl font-bold text-center mb-8">Nossos Serviços</h2>
+            <h2 class="text-3xl font-bold text-center mb-8">Nossos Serviços de Faz Tudo em Cuiabá</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <div class="bg-white p-6 rounded-lg shadow-lg step-card">
                     <i class="fas fa-bolt text-green-600 text-4xl mb-4"></i>
@@ -55,6 +51,7 @@
                         <li>Instalação de ventilador de teto, luminárias e chuveiros</li>
                         <li>Correção de curtos e problemas elétricos simples</li>
                     </ul>
+                    <a href="https://wa.me/5565993591390" class="mt-4 inline-block text-green-600 hover:underline">Solicite um Orçamento</a>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-lg step-card">
                     <i class="fas fa-faucet text-green-600 text-4xl mb-4"></i>
@@ -64,6 +61,7 @@
                         <li>Troca de sifão, válvulas e torneiras</li>
                         <li>Desentupimento leve (pia, tanque, vaso)</li>
                     </ul>
+                    <a href="https://wa.me/5565993591390" class="mt-4 inline-block text-green-600 hover:underline">Solicite um Orçamento</a>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-lg step-card">
                     <i class="fas fa-tv text-green-600 text-4xl mb-4"></i>
@@ -73,6 +71,7 @@
                         <li>Cortinas, persianas e varões</li>
                         <li>Quadros, prateleiras, espelhos, etc.</li>
                     </ul>
+                    <a href="https://wa.me/5565993591390" class="mt-4 inline-block text-green-600 hover:underline">Solicite um Orçamento</a>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-lg step-card">
                     <i class="fas fa-tools text-green-600 text-4xl mb-4"></i>
@@ -82,6 +81,7 @@
                         <li>Pintura de retoques</li>
                         <li>Troca de dobradiças e maçanetas</li>
                     </ul>
+                    <a href="https://wa.me/5565993591390" class="mt-4 inline-block text-green-600 hover:underline">Solicite um Orçamento</a>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-lg step-card">
                     <i class="fas fa-leaf text-green-600 text-4xl mb-4"></i>
@@ -91,6 +91,7 @@
                         <li>Limpeza de terrenos e fundos</li>
                         <li>Corte de grama e remoção de pequenos entulhos</li>
                     </ul>
+                    <a href="https://wa.me/5565993591390" class="mt-4 inline-block text-green-600 hover:underline">Solicite um Orçamento</a>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-lg step-card">
                     <i class="fas fa-th-large text-green-600 text-4xl mb-4"></i>
@@ -99,6 +100,7 @@
                         <li>Troca e aplicação de azulejos</li>
                         <li>Pequenos reparos em pisos e revestimentos</li>
                     </ul>
+                    <a href="https://wa.me/5565993591390" class="mt-4 inline-block text-green-600 hover:underline">Solicite um Orçamento</a>
                 </div>
                 <div class="bg-white p-6 rounded-lg shadow-lg step-card">
                     <i class="fas fa-wind text-green-600 text-4xl mb-4"></i>
@@ -108,20 +110,131 @@
                         <li>Manutenção preventiva com limpeza completa</li>
                         <li>Verificação de gás e desempenho</li>
                     </ul>
+                    <a href="https://wa.me/5565993591390" class="mt-4 inline-block text-green-600 hover:underline">Solicite um Orçamento</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer id="contato" class="bg-green-600 text-white py-6">
+    <section id="blog" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">Blog: Dicas de Faz Tudo em Cuiabá</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <article class="bg-white p-6 rounded-lg shadow-lg blog-card">
+                    <h3 class="text-xl font-semibold mb-2">Como Manter seu Ar-Condicionado em Cuiabá</h3>
+                    <p class="text-gray-600 mb-4">No calor de Cuiabá, um ar-condicionado eficiente é essencial. A Solução House oferece instalação de ar-condicionado em Cuiabá, com manutenção preventiva para bairros como Coxipó e CPA.</p>
+                    <ul class="list-disc pl-5 text-gray-600">
+                        <li>Limpe os filtros a cada 30 dias.</li>
+                        <li>Verifique o gás refrigerante anualmente.</li>
+                        <li>Contrate um faz tudo em Cuiabá para manutenção regular.</li>
+                    </ul>
+                    <p class="text-gray-600 mt-4">Precisa de ajuda? <a href="https://wa.me/5565993591390" class="text-green-600 hover:underline">Fale conosco!</a></p>
+                </article>
+                <article class="bg-white p-6 rounded-lg shadow-lg blog-card">
+                    <h3 class="text-xl font-semibold mb-2">Conserto de Torneira em Cuiabá: Soluções Rápidas</h3>
+                    <p class="text-gray-600 mb-4">Vazamentos em torneiras? A Solução House resolve com serviços de faz tudo em Cuiabá, atendendo Centro, Jardim Imperial e mais.</p>
+                    <ul class="list-disc pl-5 text-gray-600">
+                        <li>Verifique a vedação da torneira.</li>
+                        <li>Troque peças desgastadas, como o cartucho.</li>
+                        <li>Chame um marido de aluguel para vazamentos persistentes.</li>
+                    </ul>
+                    <p class="text-gray-600 mt-4">Agende agora! <a href="https://wa.me/5565993591390" class="text-green-600 hover:underline">Contato via WhatsApp</a></p>
+                </article>
+                <article class="bg-white p-6 rounded-lg shadow-lg blog-card">
+                    <h3 class="text-xl font-semibold mb-2">Limpeza de Quintal em Cuiabá: Dicas Práticas</h3>
+                    <p class="text-gray-600 mb-4">Mantenha seu quintal limpo com a Solução House. Oferecemos limpeza de quintal em Cuiabá, incluindo roçada de mato e remoção de entulhos, em bairros como CPA e Coxipó.</p>
+                    <ul class="list-disc pl-5 text-gray-600">
+                        <li>Corte a grama regularmente para evitar acúmulo.</li>
+                        <li>Remova entulhos para prevenir pragas.</li>
+                        <li>Contrate um faz tudo para terrenos grandes.</li>
+                    </ul>
+                    <p class="text-gray-600 mt-4">Deixe seu quintal impecável! <a href="https://wa.me/5565993591390" class="text-green-600 hover:underline">Fale conosco!</a></p>
+                </article>
+                <article class="bg-white p-6 rounded-lg shadow-lg blog-card">
+                    <h3 class="text-xl font-semibold mb-2">Instalação de Suportes de TV em Cuiabá</h3>
+                    <p class="text-gray-600 mb-4">Quer instalar sua TV com segurança? A Solução House faz instalação de suportes de TV em Cuiabá, em bairros como Centro e Várzea Grande.</p>
+                    <ul class="list-disc pl-5 text-gray-600">
+                        <li>Escolha suportes adequados ao tamanho da TV.</li>
+                        <li>Verifique a parede para fixação segura.</li>
+                        <li>Confie em um marido de aluguel para instalação profissional.</li>
+                    </ul>
+                    <p class="text-gray-600 mt-4">Agende sua instalação! <a href="https://wa.me/5565993591390" class="text-green-600 hover:underline">Contato via WhatsApp</a></p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-8">O que nossos clientes dizem</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+                    <p class="text-gray-600 italic">"A Solução House instalou meu ar-condicionado no Coxipó rapidamente e com preço justo. Super recomendo!"</p>
+                    <p class="text-gray-800 font-semibold mt-4">— Maria S., Coxipó</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg testimonial-card">
+                    <p class="text-gray-600 italic">"Consertaram um vazamento na minha torneira no Centro em poucas horas. Serviço profissional!"</p>
+                    <p class="text-gray-800 font-semibold mt-4">— João P., Centro</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quem-somos" class="bg-green-50 py-16">
         <div class="container mx-auto px-4 text-center">
-            <h3 class="text-xl font-bold mb-2">Solução House - Cuiabá, MT</h3>
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Sobre a Solução House - Faz Tudo Cuiabá</h2>
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    A <span class="font-semibold text-green-600">Solução House</span> é sua escolha de confiança para serviços de marido de aluguel e faz tudo em Cuiabá, MT. Especializada em reparos residenciais de qualidade, oferecemos instalação de ar-condicionado, manutenção hidráulica, elétrica, limpeza de quintal e mais. Com preço justo e atendimento profissional, resolvemos suas necessidades com eficiência e um sorriso no rosto!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">Entre em Contato</h2>
+            <form class="max-w-lg mx-auto bg-white p-6 rounded-xl shadow-lg" action="https://formsubmit.co/seu-email-aqui" method="POST">
+                <div class="mb-4">
+                    <input type="text" name="nome" placeholder="Nome" class="w-full p-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <input type="email" name="email" placeholder="E-mail" class="w-full p-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <select name="servico" class="w-full p-2 border rounded" required>
+                        <option value="">Selecione o serviço</option>
+                        <option value="Serviços Elétricos">Serviços Elétricos</option>
+                        <option value="Serviços Hidráulicos">Serviços Hidráulicos</option>
+                        <option value="Instalações e Fixações">Instalações e Fixações</option>
+                        <option value="Serviços Gerais">Serviços Gerais</option>
+                        <option value="Limpeza de Quintal">Limpeza de Quintal</option>
+                        <option value="Azulejista">Azulejista</option>
+                        <option value="Ar-condicionado">Ar-condicionado</option>
+                    </select>
+                </div>
+                <div class="mb-4">
+                    <input type="text" name="endereco" placeholder="Endereço/Bairro (ex.: Coxipó)" class="w-full p-2 border rounded" required>
+                </div>
+                <div class="mb-4">
+                    <input type="text" name="horario" placeholder="Melhor dia/horário" class="w-full p-2 border rounded">
+                </div>
+                <button type="submit" class="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contato-footer" class="bg-green-600 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-xl font-bold mb-2">Solução House - Faz Tudo Cuiabá</h3>
             <p class="text-base">Telefone: <a href="tel:+5565993591390" class="hover:underline">(65) 99359-1390</a></p>
+            <p class="text-base">Horário: Seg-Sex, 8h-18h | Sáb, 8h-12h</p>
+            <p class="text-base">Atendemos Cuiabá e Várzea Grande</p>
         </div>
     </footer>
 
     <a href="https://wa.me/5565993591390" class="whatsapp-float">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="h-16 shadow-lg rounded-full">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp - Contato Solução House Faz Tudo Cuiabá" class="h-16 shadow-lg rounded-full">
     </a>
 </body>
 </html>
