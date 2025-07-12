@@ -3,15 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Reparos rápidos, instalação de ar-condicionado, serviços hidráulicos e elétricos em Cuiabá - MT. Agende já com a Solução House!">
-    <title>Solução House - Serviços Residenciais em Cuiabá</title>
-    <!-- Tailwind CSS CDN -->
+    <meta name="description" content="Serviços de marido de aluguel, instalação de ar-condicionado, manutenção hidráulica, elétrica e limpeza de quintal em Cuiabá. Atendimento rápido com preço justo.">
+    <title>Serviços de Reparos Residenciais em Cuiabá - Solução House</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Google Analytics Placeholder -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -20,29 +16,16 @@
         gtag('config', 'G-XXXXXXXXXX');
     </script>
     <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-        .whatsapp-float {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 1000;
-        }
-        .step-card {
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .step-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-        }
+        body { font-family: 'Roboto', sans-serif; }
+        .whatsapp-float { position: fixed; bottom: 20px; right: 20px; z-index: 1000; }
+        .step-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .step-card:hover { transform: translateY(-5px); box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); }
     </style>
 </head>
 <body class="bg-gray-100">
-    <!-- Header -->
     <header class="bg-blue-600 text-white sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center p-4">
-            <img src="manuten-o/imagens/amorim.png" alt="Solução House Logo" class="h-12">
+            <img src="imagens/logo-solucao-house.png" alt="Logotipo da empresa Solução House" class="h-12">
             <nav class="space-x-4">
                 <a href="#inicio" class="hover:text-gray-200">Início</a>
                 <a href="#servicos" class="hover:text-gray-200">Serviços</a>
@@ -52,14 +35,12 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="inicio" class="bg-cover bg-center h-96 flex items-center justify-center text-center text-white" style="background-image: url('https://source.unsplash.com/random/1600x900/?home-repair')">
+    <section id="inicio" class="bg-cover bg-center h-96 flex items-center justify-center text-center text-white" style="background-image: url('imagens/capa-servicos-cuiaba.jpg')">
         <div>
             <h1 class="text-4xl font-bold mb-4">Seu parceiro para reparos e manutenções em Cuiabá - MT!</h1>
         </div>
     </section>
 
-    <!-- Services Section -->
     <section id="servicos" class="py-16">
         <div class="container mx-auto">
             <h2 class="text-3xl font-bold text-center mb-8">Nossos Serviços</h2>
@@ -130,31 +111,6 @@
         </div>
     </section>
 
-    <!-- How It Works Section -->
-    <section id="como-funciona" class="bg-white py-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Como Funciona</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="step-card bg-gray-50 p-8 rounded-xl shadow-lg text-center transform hover:scale-105 transition-all duration-300">
-                    <i class="fas fa-list-ul text-blue-600 text-5xl mb-6"></i>
-                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Passo 1: Escolha o Serviço</h3>
-                    <p class="text-gray-600">Selecione o serviço que você precisa, desde reparos elétricos até limpeza de quintal.</p>
-                </div>
-                <div class="step-card bg-gray-50 p-8 rounded-xl shadow-lg text-center transform hover:scale-105 transition-all duration-300">
-                    <i class="fas fa-comment-dots text-blue-600 text-5xl mb-6"></i>
-                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Passo 2: Contate-nos</h3>
-                    <p class="text-gray-600">Preencha o formulário de agendamento ou fale diretamente pelo WhatsApp.</p>
-                </div>
-                <div class="step-card bg-gray-50 p-8 rounded-xl shadow-lg text-center transform hover:scale-105 transition-all duration-300">
-                    <i class="fas fa-check-circle text-blue-600 text-5xl mb-6"></i>
-                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Passo 3: Atendimento Confirmado</h3>
-                    <p class="text-gray-600">Receba a confirmação do seu atendimento com data e horário agendados.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
     <section id="quem-somos" class="bg-blue-50 py-16">
         <div class="container mx-auto px-4 text-center">
             <h2 class="text-4xl font-bold text-gray-800 mb-8">Sobre a Solução House</h2>
@@ -166,7 +122,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer id="contato" class="bg-blue-600 text-white py-12">
         <div class="container mx-auto px-4 text-center">
             <h3 class="text-2xl font-bold mb-4">Solução House - Cuiabá, MT</h3>
@@ -177,12 +132,11 @@
                 <a href="#" class="text-2xl hover:text-gray-200 transition-colors"><i class="fab fa-instagram"></i></a>
                 <a href="https://wa.me/5565993591390" class="text-2xl hover:text-gray-200 transition-colors"><i class="fab fa-whatsapp"></i></a>
             </div>
-            <p class="text-sm mb-4"><a href="#" class="underline hover:text-gray-200">Política de Privacidade</a></p>
+            <p class="text-sm mb-2">CNPJ: 00.000.000/0001-00 • Endereço: Rua Exemplo, Bairro Tal, Cuiabá - MT</p>
             <p class="text-lg font-semibold">Seu parceiro para reparos e manutenções em Cuiabá - MT!</p>
         </div>
     </footer>
 
-    <!-- WhatsApp Floating Button -->
     <a href="https://wa.me/5565993591390" class="whatsapp-float">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="h-14 shadow-lg rounded-full">
     </a>
