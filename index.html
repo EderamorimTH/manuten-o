@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Reparos rápidos, instalação de ar-condicionado, serviços hidráulicos e elétricos em Cuiabá - MT. Agende já com a Solução House!">
+    <title>Solução House - Serviços Residenciais em Cuiabá</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Analytics Placeholder -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        .step-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .step-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <img src="manuten-o/imagens/amorim.png" alt="Solução House Logo" class="h-12">
+            <nav class="space-x-4">
+                <a href="#inicio" class="hover:text-gray-200">Início</a>
+                <a href="#servicos" class="hover:text-gray-200">Serviços</a>
+                <a href="#quem-somos" class="hover:text-gray-200">Quem Somos</a>
+                <a href="#contato" class="hover:text-gray-200">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="bg-cover bg-center h-96 flex items-center justify-center text-center text-white" style="background-image: url('https://source.unsplash.com/random/1600x900/?home-repair')">
+        <div>
+            <h1 class="text-4xl font-bold mb-4">Seu parceiro para reparos e manutenções em Cuiabá - MT!</h1>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="py-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-8">Nossos Serviços</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="fas fa-bolt text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Serviços Elétricos</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Troca de tomadas, disjuntores e interruptores</li>
+                        <li>Instalação de ventilador de teto, luminárias e chuveiros</li>
+                        <li>Correção de curtos e problemas elétricos simples</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="fas fa-faucet text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Serviços Hidráulicos</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Conserto de vazamentos em torneiras e registros</li>
+                        <li>Troca de sifão, válvulas e torneiras</li>
+                        <li>Desentupimento leve (pia, tanque, vaso)</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="fas fa-tv text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Instalações e Fixações</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Suportes de TV</li>
+                        <li>Cortinas, persianas e varões</li>
+                        <li>Quadros, prateleiras, espelhos, etc.</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="fas fa-tools text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Serviços Gerais</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Pequenos reparos em portas, janelas e fechaduras</li>
+                        <li>Pintura de retoques</li>
+                        <li>Troca de dobradiças e maçanetas</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="fas fa-leaf text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Limpeza de Quintal</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Roçada de mato</li>
+                        <li>Limpeza de terrenos e fundos</li>
+                        <li>Corte de grama e remoção de pequenos entulhos</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="fas fa-th-large text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Azulejista</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Troca e aplicação de azulejos</li>
+                        <li>Pequenos reparos em pisos e revestimentos</li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <i class="fas fa-wind text-blue-600 text-4xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Ar-condicionado</h3>
+                    <ul class="list-disc pl-5">
+                        <li>Instalação de split novo ou usado</li>
+                        <li>Manutenção preventiva com limpeza completa</li>
+                        <li>Verificação de gás e desempenho</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="como-funciona" class="bg-white py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">Como Funciona</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="step-card bg-gray-50 p-8 rounded-xl shadow-lg text-center transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-list-ul text-blue-600 text-5xl mb-6"></i>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Passo 1: Escolha o Serviço</h3>
+                    <p class="text-gray-600">Selecione o serviço que você precisa, desde reparos elétricos até limpeza de quintal.</p>
+                </div>
+                <div class="step-card bg-gray-50 p-8 rounded-xl shadow-lg text-center transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-comment-dots text-blue-600 text-5xl mb-6"></i>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Passo 2: Contate-nos</h3>
+                    <p class="text-gray-600">Preencha o formulário de agendamento ou fale diretamente pelo WhatsApp.</p>
+                </div>
+                <div class="step-card bg-gray-50 p-8 rounded-xl shadow-lg text-center transform hover:scale-105 transition-all duration-300">
+                    <i class="fas fa-check-circle text-blue-600 text-5xl mb-6"></i>
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-4">Passo 3: Atendimento Confirmado</h3>
+                    <p class="text-gray-600">Receba a confirmação do seu atendimento com data e horário agendados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="quem-somos" class="bg-blue-50 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold text-gray-800 mb-8">Sobre a Solução House</h2>
+            <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    A <span class="font-semibold text-blue-600">Solução House</span> é uma empresa local em Cuiabá - MT, especializada em serviços residenciais de qualidade. Com foco em confiança, preço justo e atendimento profissional, estamos prontos para resolver suas necessidades de reparos e manutenções com eficiência. Nossa equipe é dedicada a trazer soluções práticas e rápidas para sua casa, sempre com um sorriso no rosto!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contato" class="bg-blue-600 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h3 class="text-2xl font-bold mb-4">Solução House - Cuiabá, MT</h3>
+            <p class="text-lg mb-4">Horário de Atendimento: Seg-Sex, 8h-18h | Sáb, 8h-12h</p>
+            <p class="text-lg mb-4">Telefone: <a href="tel:+5565993591390" class="hover:underline">(65) 99359-1390</a> | Email: <a href="mailto:contato@solucaohouse.com.br" class="hover:underline">contato@solucaohouse.com.br</a></p>
+            <div class="flex justify-center space-x-6 mb-6">
+                <a href="#" class="text-2xl hover:text-gray-200 transition-colors"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-2xl hover:text-gray-200 transition-colors"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/5565993591390" class="text-2xl hover:text-gray-200 transition-colors"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p class="text-sm mb-4"><a href="#" class="underline hover:text-gray-200">Política de Privacidade</a></p>
+            <p class="text-lg font-semibold">Seu parceiro para reparos e manutenções em Cuiabá - MT!</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/5565993591390" class="whatsapp-float">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="h-14 shadow-lg rounded-full">
+    </a>
+</body>
+</html>
