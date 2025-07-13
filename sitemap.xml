@@ -6,22 +6,17 @@
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://maridodealuguel.cuiaba.br/#servicos</loc>
+        <loc>https://maridodealuguel.cuiaba.br/sobre.html</loc>
         <lastmod>2025-07-13</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://maridodealuguel.cuiaba.br/#quem-somos</loc>
+        <loc>https://maridodealuguel.cuiaba.br/blog.html</loc>
         <lastmod>2025-07-13</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://maridodealuguel.cuiaba.br/#blog</loc>
-        <lastmod>2025-07-13</lastmod>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://maridodealuguel.cuiaba.br/#contato</loc>
+        <loc>https://maridodealuguel.cuiaba.br/contato.html</loc>
         <lastmod>2025-07-13</lastmod>
         <priority>0.8</priority>
     </url>
